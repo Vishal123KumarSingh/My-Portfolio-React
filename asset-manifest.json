@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio-React/static/css/main.77a88817.css",
+    "main.js": "/My-Portfolio-React/static/js/main.c6ddc2bf.js",
+    "static/media/ecommerce.png": "/My-Portfolio-React/static/media/ecommerce.522da76635d52117102b.png",
+    "static/media/sidebar.png": "/My-Portfolio-React/static/media/sidebar.b2225070b8adae68d063.png",
+    "static/media/my-img.png": "/My-Portfolio-React/static/media/my-img.a45a9cbc67482527555c.png",
+    "static/media/musicapp.png": "/My-Portfolio-React/static/media/musicapp.f1c301f91904ef5f9249.png",
+    "static/media/Vishal Resume (3).pdf": "/My-Portfolio-React/static/media/Vishal Resume (3).27cfbdeaab614d6c209b.pdf",
+    "static/media/glassesimoji.png": "/My-Portfolio-React/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/hoc.png": "/My-Portfolio-React/static/media/hoc.e6af51fc04c57ae67096.png",
+    "static/media/thumbup.png": "/My-Portfolio-React/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/heartemoji.png": "/My-Portfolio-React/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/My-Portfolio-React/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/My-Portfolio-React/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/My-Portfolio-React/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "index.html": "/My-Portfolio-React/index.html",
+    "main.77a88817.css.map": "/My-Portfolio-React/static/css/main.77a88817.css.map",
+    "main.c6ddc2bf.js.map": "/My-Portfolio-React/static/js/main.c6ddc2bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77a88817.css",
+    "static/js/main.c6ddc2bf.js"
+  ]
+}
