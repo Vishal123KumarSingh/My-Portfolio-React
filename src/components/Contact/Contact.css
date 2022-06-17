@@ -1,0 +1,120 @@
+.contact{
+    height: 65vh;
+    margin: 1rem 2rem;
+    padding: 3rem;
+    /* z-index: -1; */
+    display: flex;
+    position: relative;
+    background-color: rgb(244, 239, 234);
+    border-radius: 30px;
+
+}
+
+.c-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    gap: .5rem;
+}
+
+.c-left span:nth-child(1){
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.c-left span:nth-child(2){
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--orange);
+    font-family: sans-serif;
+}
+
+.blur1{
+    left: -5rem;
+    top: 13rem;
+    z-index: 2;
+}
+.blur2{
+    left: 25rem;
+    top: 3rem;
+    z-index: 2;
+}
+
+.c-right{
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    position: relative;
+
+}
+.c-right>form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 90%;
+    align-items: center;
+
+}
+
+.c-right .user{
+    border: 3px solid var(--orange);
+    border-radius: 5px;
+    padding: 3px;
+    width: 80%;
+
+}
+
+form button{
+    width: 20% !important;
+    border-radius: 20px !important;
+    background-color: var(--orange) !important;
+    cursor: pointer !important;
+}
+
+@media screen and (max-width:480px) {
+    .contact{
+        flex-direction: column;
+        height: 40rem;
+        padding: 0;
+        margin: 0;
+    }   
+}
+
+
+/* .c-right :nth-child(1){
+    border: 3px solid var(--orange);
+    border-radius: 5px;
+    padding: 3px;
+    width: 80%;
+   
+}
+.c-right :nth-child(2){
+    border: 3px solid var(--orange);
+    border-radius: 5px;
+    padding: 3px;
+    width: 80%;
+}
+.c-right :nth-child(3){
+    border: 3px solid var(--orange);
+    border-radius: 5px;
+    padding: 3px;
+    width: 80%;
+    columns: 10;
+}
+.c-right :nth-child(4){
+    border: 3px solid var(--orange);
+    border-radius: 20px;
+    padding: 3px;
+    width: 20%;
+    columns: 10;
+    align-items: center;
+    background-color: var(--orange);
+    color: white;
+    cursor: pointer;
+} */

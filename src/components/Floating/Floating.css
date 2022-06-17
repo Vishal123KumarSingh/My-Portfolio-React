@@ -1,0 +1,23 @@
+.floating{
+    justify-content: space-around;
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 15px;
+    align-items: center;
+    height: 4.5rem;
+    padding: 0 8px 0px 0px;
+    width: 12rem;
+
+}
+
+.floating img{
+    transform: scale(.5);
+
+}
+
+.floating > span {
+    font-family: sans-serif;
+    font-size: 16px;
+    /* yahan ye color add kia hy bad mein dark mode k waqt */
+    color: rgb(16, 1, 1);
+  }

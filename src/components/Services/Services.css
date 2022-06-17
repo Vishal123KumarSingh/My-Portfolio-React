@@ -1,0 +1,97 @@
+.services{
+    padding: 0 2rem 0 2rem;
+    margin-top: 5rem;
+    display: flex;
+    height: 100vh;
+    gap: 2rem;
+}
+.s-left
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 6rem;
+    position: relative;
+}
+
+.s-left .awesome{
+    display: flex;
+    flex-direction: column;
+}
+.s-left .awesome > :nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .s-left .awesome > :nth-child(2) {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .s-left .awesome > :nth-child(3) {
+    font-weight: 100;
+    font-size: 18px;
+    color: var(--gray);
+    margin-top: 10px;
+  }
+  .s-blur1{
+    left: -20rem;
+    top: 12rem;
+}
+
+  .s-left .s-button{
+      width: 8rem;
+      height:3rem;
+
+  }
+
+  
+
+
+
+.s-right{
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.s-right> *{
+    position: absolute;
+}
+
+
+.s-blur2{
+    left: 18rem;
+    top: 20rem;
+}
+
+@media screen and (max-width: 480px) {
+
+  .services{
+    flex-direction: column;
+    margin-top: 3rem !important;
+    gap: 3rem;
+    height: 65rem;
+  }
+
+  .s-left{
+    gap: 0rem;
+  }
+
+  .s-blur1{
+    left: -30rem !important;
+    top: 22rem !important;
+}
+
+.s-right{
+  display: flex;
+  flex-direction: column;
+  gap: 15rem;
+  margin-bottom: 30rem !important;
+}
+
+.s-right > *{
+  position: static;
+ }
+  
+}

@@ -1,0 +1,56 @@
+.card{
+    width: 10rem;
+    height: 11rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    width: 10rem;
+    text-align: center;
+    background-color: rgba(230, 201, 201, 0.26);
+    background: rgba(223, 180, 180, 0.26);
+    border: 7px solid var(--orangeCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    padding: 0px 26px 2rem 26px;
+
+}
+
+.card > :nth-child(1){
+    transform: scale(.6);
+    margin-top: -2rem;
+}
+
+.card > :nth-child(2){
+    margin-top: -3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card > :nth-child(3){
+    font-size: 1.2rem;
+}
+
+.c-button{
+    border-radius: 10px;
+    background-color: rgb(231, 125, 143);
+    font-weight: bold;
+    border-color: black;
+}
+
+.c-button:hover{
+    cursor: pointer;
+    color: rgb(227, 183, 190);
+    background-color: black;
+
+    border-color: rgb(166, 67, 83);
+
+}
+
+@media screen and (max-width: 480px) {
+    .card{
+        width: auto;
+    }
+    
+}
